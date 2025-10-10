@@ -1,7 +1,7 @@
-principle = 1000
+principale = 1000
 rate = 0.05
 time = 3
 
-interest = principle*rate*time
+interest = principale*rate*time
 
 print(interest)
