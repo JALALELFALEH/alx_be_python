@@ -1,4 +1,4 @@
-class Book :
+class Book:
     def __init__(self, title, author):
         self.title = title
         self.author = author
@@ -23,7 +23,7 @@ class Book :
         return f"{self.title} by {self.author}"
 
 
-class Library (Book):
+class Library:
     def __init__(self):
         self._books = []
 
